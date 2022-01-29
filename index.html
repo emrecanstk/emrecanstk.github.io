@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emre Can Satık</title>
+    <link rel = "stylesheet" href = "index.css"/>
+</head>
+<body>
+    <div id="main_content">
+        <div id="general-content">
+            <h1 id="main-name">EMRE CAN SATIK</h1>
+            <p id="main-title">Computer Engineering Student</p>
+            <img id="image1" src="images/profil.jpg" onclick="imageReflesh('image1')">
+            <br/>
+            <div id="div-icons">
+                <ul id="icons">
+                    <li><a href="https://www.github.com/emrecanstk" target="_blank"><img class="icon" src="icons/github.svg"></li></a>
+                    <li><a href="https://www.linkedin.com/in/emrecanstk"target="_blank"><img class="icon" src="icons/linkedin.svg"></li></a>
+                    <li><a href="https://www.instagram.com/emrecanstk"target="_blank"><img class="icon" src="icons/instagram.svg"></li></a>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <p id="pr">I was born in July 2002 in Bursa. I started to develop myself on software in my high school years.</p>
+        </div>
+    </div>
+
+    <div id="sub_contents">
+
+        <center>
+        <div class="sub_content">
+            <div class="bar">Projects</div>
+            <div id="projects" class="texter">
+
+            </div>
+        </div>
+        </center>
+        <center>
+            <div class="sub_content">
+                <div class="bar">Contact</div> 
+                <div id="contact" class="texter">
+                    <form action="submit.php" method="">
+                            <div><input style="width: 65%; height: 30px; margin-bottom: 5px;" name="name-surname" placeholder="Name & Surname" type="text" required autofocus></div>
+                            <div><input style="width: 65%; height: 30px; margin-bottom: 5px;" name="e-mail" placeholder="E-Mail" type="email" required></div>
+                            <div><input style="width: 65%; height: 30px; margin-bottom: 5px;" name="subject" placeholder="Subject" type="text" required></div>
+                            <div><textarea style="width: 65%; height: 80px; margin-bottom: 8px;" name="message" placeholder="Message" required></textarea></div>
+                            <div><button style="width: 20%; height: 30px;" name="submit" type="submit" id="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+            </center>
+    </div>
+
+</body>
+</html>
